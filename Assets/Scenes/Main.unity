@@ -140,8 +140,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -170, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -6.8, y: 10.1}
+  m_SizeDelta: {x: 487, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &15717209
 MonoBehaviour:
@@ -172,8 +172,8 @@ MonoBehaviour:
     m_Alignment: 0
     m_AlignByGeometry: 1
     m_RichText: 1
-    m_HorizontalOverflow: 1
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: This is a default sentect for all your sentecy needs.
 --- !u!222 &15717210
@@ -1938,33 +1938,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _dialogue:
-  - name: David
-    characterSprite: {fileID: 21300000, guid: a178eff7a95e9f1419cfa8913ad584b1, type: 3}
-    sentence:
-    - Hi, I am David! I will be your tour guide for the day.
-    - We will first show the canteen, after that we can go to the library and end
-      up at the bedrooms.
-    - This is the canteen where our food gets made and eaten by the students.
-  - name: Roal
-    characterSprite: {fileID: 21300000, guid: f78126212459d09428fe395e3d05957f, type: 3}
-    sentence:
-    - To be fair, you have to have a very high IQ to fap to Shadman. The loli anal
-      is extremely subtle, and without a solid grasp of boob physics most of the cum
-      will go over a typical fapper's head.
-    - There's also Shads's Pedophilic outlook, which is deftly woven into his characterisation
-      - his personal philosophy draws heavily from Vladimir Nabokovs literature, for
-      instance.
-    - The fans understand this stuff; they have the intellectual capacity to truly
-      appreciate the depths of these cum shots, to realize that they're not just cock
-      hardening- they say something deep about PORN.
-    - As a consequence people who dislike Shad truly ARE Furries- of course they wouldn't
-      appreciate, for instance, the humour in Shad's perverted catchphrase "Shit boys
-      the party van's here"
-    - 'which itself is a cryptic reference to Nobokov''s Russian epic Lolita I''m
-      smirking right now just imagining one of those addlepated simpletons stroking
-      their heads in confusion as Shadman''s genius unfolds itself on their desktop
-      monitors. '
-    - What moralists... How I pity them
+  - Name: David
+    CharacterSprite: {fileID: 21300000, guid: a178eff7a95e9f1419cfa8913ad584b1, type: 3}
+    Sentence:
+    - And we sit here so close in the dark
+    - And we're so close to being torn apart
+    - Ever crash I can feel in our foundation
+    - "It runs through my veins and I hate the sensation\r\n"
+    - But I know that I'm safe here with you
+    - Cause we made it through everything the old and the new
+    - Just wake me up when all this is over
+    - "Wake me up and tell me it's not true\r\n"
+  - Name: Roal
+    CharacterSprite: {fileID: 21300000, guid: f78126212459d09428fe395e3d05957f, type: 3}
+    Sentence:
+    - "It's the last dance of the evening\r"
+    - Let the moon just shine
+    - Take my hand, we'll commit treason and let the man of friends look fight
+    - And this world so overrated
+    - All I need is a piece of the night for your heart to be in my favor
+    - So I drag my revolver, not a soldier
+    - When I found out that love can bring down the rain
+    - And I hold her, call it over, this girl in my arms is gonna see better dayx
 --- !u!4 &2133679118
 Transform:
   m_ObjectHideFlags: 0
@@ -1991,4 +1986,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _nameUi: {fileID: 304761479}
   _sentenceUi: {fileID: 15717209}
-  _characterImage: {fileID: 0}
+  _characterImage: {fileID: 2009312988}

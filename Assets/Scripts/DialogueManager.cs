@@ -10,32 +10,30 @@ public class DialogueManager : MonoBehaviour
 	//UI
 	[SerializeField] private Text _nameUi;
 	[SerializeField] private Text _sentenceUi;
-	[SerializeField] private Sprite _characterImage;
+	[SerializeField] private Image _characterImage;
 	
 	private void Start () 
 	{
 		_conversation = new Queue<string>();
 	}
 
-	public void StartDialogue(Dialogue sentences)
-	{
-		print(_nameUi);
-		_nameUi.text = sentences.name;
-		_characterImage = sentences.characterSprite;
-		_conversation.Clear();
-		foreach (var line in sentences.sentence) //Do this for every var in sentences.sentence
-		{
-			_conversation.Enqueue(line); //add line to queue
-		}
-		ChangeUi();
-	}
-
 	public void ChangeUi()
 	{
 		if (_conversation.Count == 0) return;
 
-		var sentence = _conversation.Dequeue();
-		_sentenceUi.text = sentence;
+		_sentenceUi.text = _conversation.Dequeue();
+	}
+	
+	public void StartDialogue(Dialogue sentences)
+	{
+		_nameUi.text = sentences.Name;
+		_characterImage.sprite = sentences.CharacterSprite;
+		_conversation.Clear();
+		foreach (var line in sentences.Sentence) //Do this for every var in sentences.sentence
+		{
+			_conversation.Enqueue(line); //add line to queue
+		}
+		ChangeUi();
 	}
 	
 	//TODO: Connect scripts x
